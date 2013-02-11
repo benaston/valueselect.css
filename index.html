@@ -1,107 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-.search-filters table {
-text-align: center;
-}
-table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-input[type="radio"] {
-position: absolute;
-visibility: hidden;
-}
- input[type="radio"], input[type="checkbox"] {
-cursor: pointer;
-}
-button, input, select, textarea {
-margin: 0;
-font-size: 100%;
-vertical-align: middle;
-}
-label {
-margin: 0;
-height: 40px;
-width: 40px;
-border-radius: 40px;
-line-height: 37px;
-border: 2px solid #EEEEEE;
--webkit-user-select: none;
-text-align: center;
-}
-label {
-box-sizing: border-box;
-}
-label, input, button, select, textarea {
-font-size: 14px;
-font-weight: normal;
-line-height: 20px;
-}
-style.css:1@media screen
-label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
-cursor: pointer;
-}
-</style>
+	<!-- Copyright Ben Aston 2013. All rights reserved. -->	
+	<link href="./style.css" rel="stylesheet">		
 </head>
-<body>
-  <div class="search-filters">
-  						<span class="gray">Minimum rate (GBP)</span>
-							<table>
-								<tbody><tr>
-									<td>
-										<input id="r200" name="r" type="radio" checked="checked">
-										<label for="r200">200</label>									
-									</td>
-									<td>
-										<input id="r300" name="r" type="radio">
-										<label for="r300">300</label>							
-									</td>
-									<td>
-										<input id="r400" name="r" type="radio">
-										<label for="r400">
-											400								
-										</label>
-									</td>
-									<td>
-										<input id="r500" name="r" type="radio">
-										<label for="r500">
-											500								
-										</label>
-									</td>
-									<td>
-										<input id="r600" name="r" type="radio">
-										<label for="r600">
-											600								
-										</label>
-									</td>						
-								</tr>	
-								<tr>
-									<td>
-										<input id="r250" name="r" type="radio" checked="checked">
-										<label for="r250">250</label>									
-									</td>
-									<td>
-										<input id="r350" name="r" type="radio">
-										<label for="r350">350</label>							
-									</td>
-									<td>
-										<input id="r450" name="r" type="radio">
-										<label for="r450">
-											450								
-										</label>
-									</td>
-									<td>
-										<input id="r550" name="r" type="radio">
-										<label for="r550">
-											550								
-										</label>
-									</td>
-									<td>
-										
-									</td>						
-								</tr>					
-							</tbody></table>			
-						</div>
-</body>
+<body>	
+	<div class="wrapper">
+		<p>Select one...</p>
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<input id="r200" name="r" type="radio" checked="checked">
+							<label for="r200">200</label>									
+						</td>
+						<td>
+							<input id="r300" name="r" type="radio">
+							<label for="r300">300</label>							
+						</td>
+						<td>
+							<input id="r400" name="r" type="radio">
+							<label for="r400">400</label>
+						</td>
+						<td>
+							<input id="r500" name="r" type="radio">
+							<label for="r500">500</label>
+						</td>
+						<td>
+							<input id="r600" name="r" type="radio">
+							<label for="r600">600</label>
+						</td>						
+					</tr>	
+					<tr>
+						<td>
+							<input id="r250" name="r" type="radio" checked="checked">
+							<label for="r250">250</label>									
+						</td>
+						<td>
+							<input id="r350" name="r" type="radio">
+							<label for="r350">350</label>							
+						</td>
+						<td>
+							<input id="r450" name="r" type="radio">
+							<label for="r450">450</label>
+						</td>
+						<td>
+							<input id="r550" name="r" type="radio">
+							<label for="r550">550</label>
+						</td>
+						<td>
+						</td>						
+					</tr>					
+				</tbody>
+			</table>			
+		</div>
+	</body>
 </html>
